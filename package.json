@@ -1,0 +1,31 @@
+{
+  "name": "ez-form-builder",
+  "version": "0.1.0",
+  "description": "Pass it the desired fields and it will return the html form",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node ./spec --autotest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlwebdev/ez-form-builder.git"
+  },
+  "keywords": [
+    "form-builder"
+  ],
+  "author": "Daniel Weber <dw@thedanielweber.com> (http://www.thedanielweber.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlwebdev/ez-form-builder/issues"
+  },
+  "homepage": "https://github.com/dlwebdev/ez-form-builder#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "jasmine": "^2.5.2",
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
