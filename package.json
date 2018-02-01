@@ -1,6 +1,6 @@
 {
   "name": "ez-form-builder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pass it the desired fields and it will return the html form",
   "main": "index.js",
   "scripts": {
