@@ -18,7 +18,7 @@ function getHtmlForField(field) {
 
   switch(field.type) {
      case "text": {
-        console.log("Text field wanted");
+        // console.log("Text field wanted");
 
         fieldHtml = ` <input type="text"`;
 
@@ -29,7 +29,7 @@ function getHtmlForField(field) {
         break;
      }
      case "select": {
-        console.log("Select wanted");
+        // console.log("Select wanted");
 
         fieldHtml = ` <select`;
 
@@ -40,7 +40,7 @@ function getHtmlForField(field) {
         break;
      }
      default: {
-        console.log("Invalid field");
+        // console.log("Invalid field");
         fieldHtml = ` `;
         break;
      }
